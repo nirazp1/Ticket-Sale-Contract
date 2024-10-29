@@ -33,13 +33,30 @@ This smart contract implements a comprehensive ticket management system with the
 
 ```shell
   TicketSale Contract
+Deploying contract with account: 0xA7449C4BDdC3910f2Afe7e94D2534730f053f62B
+Account balance: 1000000000000000000000
+Contract deployed to: 0x48Cd9110d9BbaBA4217B876120aFAc5F9437b3fd
     ✔ deploys a contract
-    ✔ allows one account to buy a ticket (46ms)
-    ✔ prevents buying same ticket twice (47ms)
-    ✔ allows ticket swap between two users (100ms)
-    ✔ allows resale of tickets (83ms)
+Deploying contract with account: 0xA7449C4BDdC3910f2Afe7e94D2534730f053f62B
+Account balance: 999998199776000000000
+Contract deployed to: 0x928071f8fF7F868aC99581d8CDc904EeC0cDCEfc
+Buyer initial balance: 1000000000000000000000
+    ✔ allows one account to buy a ticket (44ms)
+Deploying contract with account: 0xA7449C4BDdC3910f2Afe7e94D2534730f053f62B
+Account balance: 999996399552000000000
+Contract deployed to: 0x0482bD807158626549fe0f1F3dBB7D7843f2AC3F
+    ✔ prevents buying same ticket twice (43ms)
+Deploying contract with account: 0xA7449C4BDdC3910f2Afe7e94D2534730f053f62B
+Account balance: 999994599328000000000
+Contract deployed to: 0xC1ABa8c45Bc92a6B572975202D3a6ee78424db26
+    ✔ allows ticket swap between two users (103ms)
+Deploying contract with account: 0xA7449C4BDdC3910f2Afe7e94D2534730f053f62B
+Account balance: 999992799104000000000
+Contract deployed to: 0xe36B9C3C6185ecd81E6906E53470628B4D3C8d2A
+    ✔ allows resale of tickets (81ms)
 
-  5 passing (479ms)
+
+  5 passing (467ms)
 ```
 
 ## Deployment Results
@@ -49,7 +66,7 @@ Contract compiled successfully!
 MNEMONIC exists: true
 INFURA_URL exists: true
 Attempting to deploy from account 0xFa12724063D16a22a13621272409085731D4acA4
-Contract deployed to 0x38251CB8a27Ad7805A57bDD1864CB8CA78C6fACc
+Contract deployed to 0x4d594a3A020580Fb74ec2e07eB576a13b5C9eAce
 ```
 
 ## Project Structure
