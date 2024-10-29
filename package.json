@@ -4,9 +4,9 @@
   "description": "Smart contract for ticket sales",
   "main": "index.js",
   "scripts": {
+    "generate": "node generateFiles.js",
     "test": "mocha --timeout 10000",
-    "compile": "node compile.js",
-    "deploy": "node deploy.js"
+    "deploy": "node scripts/deploy.js"
   },
   "dependencies": {
     "@truffle/hdwallet-provider": "1.7.0",

@@ -1,3 +1,21 @@
+# Dependencies
 node_modules/
+
+# Environment variables
 .env
-.DS_Store 
+
+# Generated files
+ABI.txt
+Bytecode.txt
+TicketSaleABI.json
+TicketSaleBytecode.bin
+
+# OS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log

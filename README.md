@@ -14,8 +14,8 @@ This smart contract implements a comprehensive ticket management system with the
 ## Smart Contract Details
 
 **Network:** Sepolia Testnet  
-**Contract Address:** `0x38251CB8a27Ad7805A57bDD1864CB8CA78C6fACc`  
-**Solidity Version:** 0.8.9
+**Contract Address:** `0x4d594a3A020580Fb74ec2e07eB576a13b5C9eAce`  
+**Solidity Version:** 0.8.28
 
 ### Core Functions
 
@@ -80,7 +80,8 @@ Contract deployed to 0x4d594a3A020580Fb74ec2e07eB576a13b5C9eAce
 ├── test/
 │   └── test.js            # Test suite
 ├── .env                    # Environment configuration
-└── package.json           # Project dependencies
+├── package.json           # Project dependencies
+└── README.md              # Project documentation
 ```
 
 ## Setup and Installation
@@ -103,12 +104,17 @@ MNEMONIC=your_mnemonic_phrase
 INFURA_URL=your_infura_url
 ```
 
-4. Run tests:
+4. Generate ABI and Bytecode:
+```bash
+npm run generate
+```
+
+5. Run tests:
 ```bash
 npm test
 ```
 
-5. Deploy contract:
+6. Deploy contract:
 ```bash
 npm run deploy
 ```
@@ -123,7 +129,7 @@ npm run deploy
 
 ## Technical Implementation
 
-- Built with Solidity 0.8.9
+- Built with Solidity 0.8.28
 - Tested with Mocha
 - Deployed using Web3.js and Truffle HDWallet Provider
 - Gas-optimized for efficient operation
