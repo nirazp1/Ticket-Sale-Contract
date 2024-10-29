@@ -88,7 +88,7 @@ Contract deployed to 0x4d594a3A020580Fb74ec2e07eB576a13b5C9eAce
 1. Clone the repository:
 ```bash
 git clone https://github.com/nirazp1/Ticket-Sale-Contract.git
-cd ticket-sale-contract
+cd Ticket-Sale-Contract
 ```
 
 2. Install dependencies:
