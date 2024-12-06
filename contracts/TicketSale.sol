@@ -42,9 +42,14 @@ contract TicketSale {
         require(msg.value == ticketPrice, "Incorrect payment amount.");
         require(getTicketOf(msg.sender) == 0, "You can only buy one ticket."); 
 
+        // Assign the ticket to the buyer
         ticketOwners[ticketId] = msg.sender;
         ticketsSold++;
-        
+
+        // Use call to send Ether to the owner
+        (bool success, ) = owner.call{value: msg.value}("");
+        require(success, "Transfer failed.");
+
         emit TicketPurchased(msg.sender, ticketId);
     }
 
