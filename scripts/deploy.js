@@ -27,7 +27,7 @@ const deploy = async () => {
     const result = await new web3.eth.Contract(JSON.parse(interface))
       .deploy({ 
         data: bytecode, 
-        arguments: [100, web3.utils.toWei('0.01', 'ether')] 
+        arguments: [100, web3.utils.toWei('0.0000001', 'ether')]
       })
       .send({ 
         from: accounts[0], 
@@ -35,6 +35,7 @@ const deploy = async () => {
       });
 
     console.log('Contract deployed to', result.options.address);
+    console.log('Contract ABI:', interface);
   } catch (error) {
     console.error('Error during deployment:', error);
   } finally {
